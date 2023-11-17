@@ -1,0 +1,9 @@
+{
+  "name": "backend",
+  "scripts": {
+    "start": "json-server db.json --delay 5000"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
