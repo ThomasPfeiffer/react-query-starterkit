@@ -1,7 +1,13 @@
+import { ReactQueryProvider } from "./ReactQueryProvider";
+import { Router } from "./Router";
+import { ChakraProvider } from "@chakra-ui/react";
+
 export function App() {
   return (
-    <>
-      <div>hi</div>
-    </>
+    <ChakraProvider>
+      <ReactQueryProvider>
+        <Router />
+      </ReactQueryProvider>
+    </ChakraProvider>
   );
 }
