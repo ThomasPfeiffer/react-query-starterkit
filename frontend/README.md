@@ -1,30 +1,15 @@
-# React + TypeScript + Vite
+# Tanstack Query (React Query) Starter Kit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Small playground Project to get to know React Query. Contains a backend based on [JSON Server](https://github.com/typicode/json-server) and a frontend based on [Vite](https://vitejs.dev/), [Chakra UI](https://chakra-ui.com/) and of course [React Query](https://tanstack.com/query/v5/docs/react/overview).
 
-Currently, two official plugins are available:
+Each page contains some tasks you fullfill by adjusting the code of the page itself. [https://tanstack.com/query/v5/docs/react/devtools](React Query Devtools) are enabled by default, you should use them in combination with the [https://tanstack.com/query/v5/docs/react/overview](official docs) to fullfill the tasks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Quick Start
 
-## Expanding the ESLint configuration
+- Open a terminal in _backend_
+- Run npm install
+- Run npm start
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Open a second terminal in _frontend_
+- Run npm install
+- Run npm start

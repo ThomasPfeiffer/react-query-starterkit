@@ -14,11 +14,11 @@ import { Character } from "../Character";
 import { QueryStatusDisplay } from "../QueryStatusDisplay";
 import { useState } from "react";
 
-export function QueryKeys() {
+export function QueryBasics() {
   const [characterCount, setCharacters] = useState(1);
   return (
     <Box maxW="1000px">
-      <Heading>Query Keys</Heading>
+      <Heading>Queries</Heading>
       <Text mb="5">
         <Highlight
           query="unique"

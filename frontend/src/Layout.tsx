@@ -19,7 +19,9 @@ export function Layout() {
         position="relative"
       >
         <NavItem text="Introduction" to="introduction" />
-        <NavItem text="Query Keys" to="query-keys" />
+        <NavItem text="Query Basics" to="query-basics" />
+        <NavItem text="Mutations" to="mutations" />
+        <NavItem text="Invalidation" to="invalidation" />
         <Box position="absolute" bottom="5" left="5">
           <GlobalLoadingIndicator />
         </Box>

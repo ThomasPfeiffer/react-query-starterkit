@@ -1,7 +1,9 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Layout } from "./Layout";
-import { QueryKeys } from "./pages/QueryKeys";
+import { Invalidation } from "./pages/Invalidation";
 import { Introduction } from "./pages/Introduction";
+import { QueryBasics } from "./pages/QueryBasics";
+import { Mutations } from "./pages/Mutations";
 
 const router = createBrowserRouter([
   {
@@ -13,8 +15,16 @@ const router = createBrowserRouter([
         element: <Introduction />,
       },
       {
-        path: "query-keys",
-        element: <QueryKeys />,
+        path: "query-basics",
+        element: <QueryBasics />,
+      },
+      {
+        path: "mutations",
+        element: <Mutations />,
+      },
+      {
+        path: "invalidation",
+        element: <Invalidation />,
       },
     ],
   },
