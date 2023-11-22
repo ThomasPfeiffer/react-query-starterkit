@@ -7,7 +7,6 @@ export function QueryStatusDisplay({ query }: { query: UseQueryResult }) {
     <>
       <HStack>
         <Indicator query={query} field="isPending" />
-        <Indicator query={query} field="isLoading" />
         <Indicator query={query} field="isFetching" />
         <Indicator query={query} field="isRefetching" />
         <Indicator query={query} field="isSuccess" />

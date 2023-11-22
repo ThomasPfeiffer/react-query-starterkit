@@ -78,6 +78,7 @@ function useCharacters() {
   return useQuery({
     queryKey: ["characters"],
     queryFn: () => get<Character[]>(`/characters`),
+    staleTime: Infinity,
   });
 }
 
@@ -85,5 +86,6 @@ function useCharacter(id: number) {
   return useQuery({
     queryKey: ["characters", id],
     queryFn: () => get<Character>(`/characters/${id}`),
+    staleTime: Infinity,
   });
 }

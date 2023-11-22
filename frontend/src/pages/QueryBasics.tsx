@@ -54,9 +54,7 @@ export function QueryBasics() {
           Set the staleTime to something different from 0 and see how the
           refetch behavior changes
         </ListItem>
-        <ListItem>
-          Use the React Query Devtools to invalidate the query
-        </ListItem>
+        <ListItem>Use the React Query Devtools to invalidate a query</ListItem>
         <ListItem>
           Use the React Query Devtools to invalidate the characters query while
           you are on the introduction page
